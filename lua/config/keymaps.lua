@@ -4,6 +4,6 @@
 
 if vim.fn.executable("lazydocker") == 1 then
   vim.keymap.set("n", "<leader>gD", function()
-    LazyVim.terminal("lazydocker", { esc_esc = false, ctrl_hjkl = false })
+    Snacks.terminal("lazydocker", { esc_esc = false, ctrl_hjkl = false })
   end, { desc = "Lazydocker" })
 end
